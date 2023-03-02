@@ -21,23 +21,22 @@
             <button type="button" class="border-2 border-solid border-blue-800 rounded-lg text-blue-800 py-px px-6 text-sm hover:bg-blue-800 hover:text-white">Create a Post</button>
             <button type="button" class="bg-blue-800 text-white rounded-lg text-sm py-px px-6 border-2 border-solid border-blue-800 hover:bg-white hover:text-blue-800">Log in</button>
         </div>
-        <div class="mx-6 md:hidden">
+        <div class="mx-6 md:hidden cursor-pointer">
             <span onclick="hide()">☰</span>
         </div>
     </header>
-    <side>
-        <div class="text-blue-800 h-auto shadow-lg bg-white w-64">
-        <h3 class="mb-2 text-black"><b>Categories</b></h3>
+    <side >
+        <div class="text-blue-800 h-auto shadow-lg bg-white w-64 ml-2 hidden" id="hidden">
+        <h3 class="p-2 px-4  text-black text-2xl box-border"><b>Categories</b></h3>
         <ul class="m-2 ">
-            <li class="m-3">For Sale</li>
-            <li class="m-3">Community</li>
-            <li class="m-3">Community</li>
-            <li class="m-3">Housing</li>
-            <li class="m-3">Services</li>
-            <li class="m-3">Jobs</li>
-            <li class="m-3">Gigs</li>
-            <li class="m-3">Discussion Forums</li>
-            <li class="m-3">Events</li>
+            <li class="p-3 mb-4 font-serif">For Sale</li>
+            <li class="p-3 mb-4 font-serif">Community</li>           
+            <li class="p-3 mb-4 font-serif">Housing</li>
+            <li class="p-3 mb-4 font-serif">Services</li>
+            <li class="p-3 mb-4 font-serif">Jobs</li>
+            <li class="p-3 mb-4 font-serif">Gigs</li>
+            <li class="p-3 mb-4 font-serif">Discussion Forums</li>
+            <li class="p-3 mb-4 font-serif">Events</li>
         </ul>
     </div>
     </side>
@@ -98,6 +97,6 @@
         </div>
 
     </main>
-    
+    <script src="myscript.js"></script>
 </body>
 </html>
