@@ -604,6 +604,26 @@ video {
   margin-right: 1.25rem;
 }
 
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.mt-px {
+  margin-top: 1px;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-px {
+  margin-left: 1px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -656,6 +676,14 @@ video {
   height: 1.25rem;
 }
 
+.h-7 {
+  height: 1.75rem;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
 .w-auto {
   width: auto;
 }
@@ -682,6 +710,14 @@ video {
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-7 {
+  width: 1.75rem;
+}
+
+.w-3 {
+  width: 0.75rem;
 }
 
 .max-w-\[256px\] {
@@ -767,6 +803,14 @@ video {
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
 }
 
+.fill-blue-900 {
+  fill: #1e3a8a;
+}
+
+.stroke-blue-900 {
+  stroke: #1e3a8a;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -811,6 +855,14 @@ video {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -831,8 +883,17 @@ video {
   line-height: 2.25rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.font-thin {
+  font-weight: 100;
 }
 
 .text-blue-800 {
@@ -856,6 +917,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .hover\:bg-blue-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(30 64 175 / var(--tw-bg-opacity));
@@ -864,6 +931,18 @@ video {
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:fill-blue-900:hover {
+  fill: #1e3a8a;
+}
+
+.hover\:hover\:fill-blue-900:hover:hover {
+  fill: #1e3a8a;
+}
+
+.hover\:stroke-blue-900:hover {
+  stroke: #1e3a8a;
 }
 
 .hover\:text-white:hover {
@@ -906,6 +985,22 @@ video {
 
   .md\:h-52 {
     height: 13rem;
+  }
+
+  .md\:h-4 {
+    height: 1rem;
+  }
+
+  .md\:h-5 {
+    height: 1.25rem;
+  }
+
+  .md\:w-4 {
+    width: 1rem;
+  }
+
+  .md\:w-5 {
+    width: 1.25rem;
   }
 
   .md\:basis-\[78\.6\%\] {
