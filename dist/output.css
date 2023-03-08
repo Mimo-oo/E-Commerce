@@ -513,8 +513,40 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.right-\[0\%\] {
+  right: 0%;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.top-7 {
+  top: 1.75rem;
+}
+
+.top-8 {
+  top: 2rem;
 }
 
 .z-30 {
@@ -523,10 +555,6 @@ video {
 
 .float-right {
   float: right;
-}
-
-.float-left {
-  float: left;
 }
 
 .m-0 {
@@ -560,6 +588,10 @@ video {
   margin-right: 1.5rem;
 }
 
+.mb-px {
+  margin-bottom: 1px;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -568,12 +600,20 @@ video {
   margin-bottom: 1rem;
 }
 
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
 .ml-32 {
   margin-left: 8rem;
 }
 
 .ml-12 {
   margin-left: 3rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .mt-2 {
@@ -586,42 +626,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
-.mb-px {
-  margin-bottom: 1px;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mr-5 {
-  margin-right: 1.25rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
-}
-
-.mt-px {
-  margin-top: 1px;
-}
-
-.mt-12 {
-  margin-top: 3rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.ml-px {
-  margin-left: 1px;
 }
 
 .box-border {
@@ -648,76 +652,76 @@ video {
   height: 3rem;
 }
 
-.h-auto {
-  height: auto;
-}
-
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-32 {
-  height: 8rem;
-}
-
-.h-9 {
-  height: 2.25rem;
-}
-
-.h-52 {
-  height: 13rem;
+.h-7 {
+  height: 1.75rem;
 }
 
 .h-4 {
   height: 1rem;
 }
 
-.h-5 {
-  height: 1.25rem;
+.h-6 {
+  height: 1.5rem;
 }
 
-.h-7 {
-  height: 1.75rem;
+.h-auto {
+  height: auto;
+}
+
+.h-32 {
+  height: 8rem;
 }
 
 .h-3 {
   height: 0.75rem;
 }
 
+.h-9 {
+  height: 2.25rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-52 {
+  height: 13rem;
+}
+
 .w-auto {
   width: auto;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.w-5 {
-  width: 1.25rem;
 }
 
 .w-7 {
   width: 1.75rem;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .w-3 {
   width: 0.75rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .max-w-\[256px\] {
@@ -803,10 +807,6 @@ video {
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
 }
 
-.fill-blue-900 {
-  fill: #1e3a8a;
-}
-
 .stroke-blue-900 {
   stroke: #1e3a8a;
 }
@@ -855,14 +855,6 @@ video {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -890,10 +882,6 @@ video {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-thin {
-  font-weight: 100;
 }
 
 .text-blue-800 {
@@ -933,8 +921,9 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.hover\:fill-blue-900:hover {
-  fill: #1e3a8a;
+.hover\:bg-blue-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
 .hover\:hover\:fill-blue-900:hover:hover {
@@ -970,6 +959,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:right-\[28\%\] {
+    right: 28%;
+  }
+
   .md\:mx-2 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -987,16 +980,8 @@ video {
     height: 13rem;
   }
 
-  .md\:h-4 {
-    height: 1rem;
-  }
-
   .md\:h-5 {
     height: 1.25rem;
-  }
-
-  .md\:w-4 {
-    width: 1rem;
   }
 
   .md\:w-5 {
